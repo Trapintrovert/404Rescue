@@ -1,0 +1,260 @@
+@media (max-width:575px) {
+  .feature{
+  background-image: url('images/Union.svg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 210px;
+  height: 1121px;
+  }
+
+  .feature img{
+    padding-left: 7rem;
+  }
+  .get-app img{
+    width: 100%;
+    height: 300px;
+  }
+  .get-app{
+    padding-top: 50px;
+  }
+  .get-app h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #4285F4;
+  }
+  .get-app a img{
+   width: 150px;
+    height: 130px;
+  }
+  #newsletter{
+    background-color: #F8F8F8;
+  }
+  #newsletter button{
+    width: 100%;
+  }
+  #newsletter img{
+    padding-right: 50%;
+    padding-left: 43%;
+    width: auto;
+  }
+  #main-footer .navbar-expand-sm .navbar-collapse {
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+
+}
+
+/* Medium devices (tablets) */
+@media (min-width:768px) {
+  .feature{
+  background-image: url('images/Union.svg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
+  height: 650px;
+  }
+  .feature img{
+    padding-left: 2rem;
+  }
+  .get-app{
+    padding-top: 60px;
+  }
+  .get-app img{
+    width: 440px;
+    height: 228px;
+  }
+  .get-app a img{
+   width: 75px;
+    height: 63px;
+  }
+  #newsletter{
+    background-color: #F8F8F8;
+  }
+  #newsletter button{
+    width: 96%;
+  }
+}
+
+
+/* Large devices (desktops) */
+@media (min-width:992px) {
+  .feature{
+  background-image: url('images/Union.svg');
+  background-position: center;
+  background-size: cover;
+  padding-top: 150px;
+  height: 650px;
+  }
+  .feature img{
+    padding-left: 5rem;
+  }
+  .get-app{
+    padding-top: 150px;
+  }
+  .get-app img{
+    width: 575px;
+    height: 380px;
+  }
+  #newsletter{
+    background-color: #F8F8F8;
+  }
+}
+@media (min-width:1000px) {
+  #newsletter button{
+    width: 30%;
+  }
+}
+
+/* Extra large devices (large desktops) */
+@media (min-width:1200px) {
+  .feature{
+    background-image: url('images/Union.svg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 150px;
+    height: 550px;
+  }
+  .feature img{
+    padding-left: 5rem;
+  }
+  .get-app{
+    padding-top: 150px;
+  }
+  .get-app img{
+    width: 700px;
+    height: 380px;
+  }
+  .get-app a img{
+    width: 147px;
+    height: 130px;
+  }
+  #newsletter{
+    background-color: #F8F8F8;
+    height: 130px;
+  }
+  #newsletter button{
+    width: 36%;
+  }
+}
+
+.navbar-light .navbar-nav .btn-default{
+    background-color: #2A3FFA;
+    height: 45px;
+    width: 124px;
+    border-radius: 5px;
+}
+.bg-medicine {
+  background-image: url('images/undraw_medicine.svg');
+  background-position: center;
+  background-size: cover;
+}
+header{
+  margin-bottom: 50px;
+}
+
+header .btn-default{
+  background: #2A3FFA;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 15px;
+  width: 190px;
+  height: 61px;
+}
+
+header .btn-outline-default{
+  color: #3C5AE6;
+  border: 1px solid #3C5AE6;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 15px;
+  width: 190px;
+  height: 61px;
+}
+header .modal-content{
+  width: 496px;
+  border-radius:0px;
+  border: 0px;
+}
+header .modal-header{
+  background: #6665F0;
+  border-radius: 0px;
+}
+header .form-group .btn-block{
+  background: #6665F0;
+}
+header .btn-md{
+  background: #8F4BFF;
+  border-radius: 5px;
+  border-color: #8F4BFF;
+}
+
+.report hr{
+  background: #6665F0;
+  border: 1px solid #6665F0;
+  border-radius: 0px 0px 5px 5px;
+  width: 79px;
+  height: 2px;
+}
+
+.report .btn-primary{
+  background-color: #3C5AE6;
+}
+
+.get-app h3{
+  color: #4285F4;
+}
+
+
+#newsletter input{
+  border: 2px solid #3C5AE6;
+  box-sizing: border-box;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+#newsletter button{
+  background: #6665F0;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+#team{
+  padding-top: 50px !important;
+}
+#team hr{
+  background: #6665F0;
+  border: 1px solid #6665F0;
+  border-radius: 0px 0px 5px 5px;
+  width: 79px;
+  height: 2px;
+}
+
+#team .card{
+  border-radius: 5px;
+  border: 0px;
+
+}
+ #team .card-img-overlay {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   transition: .9s ease;
+   opacity:0;
+  border-radius: 8px;
+}
+#team .card:hover .card-img-overlay{
+  opacity: 0.9;
+  background-color: #6665F0;
+  color: #ffffff;
+
+}
+#team .fa{
+  color: #fff;
+}
+#main-footer .navbar{
+  background: #FFFFFF;
+  box-shadow: inset 0px 4px 4px #ECECEC
+}

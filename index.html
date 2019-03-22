@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>404Rescue Emergency Report App</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body id="home">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-sm navbar-light py-5">
+    <div class="container">
+      <a href="index/html" class="navbar-brand">
+        <img src="images/logo.png"  alt="Logo"/><h3 class="d-inline align-middle pl-2">404Rescue</h3>
+      </a>
+      <button class="navbar-toggler bg-white text-dark" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto pr-5">
+          <li class="nav-item px-3">
+            <a href="#home" class="nav-link text-dark font-weight-bold">Blog</a>
+          </li>
+          <li class="nav-item px-3 font-weight-bold" >
+            <a href="#" class="nav-link text-dark">Download</a>
+          </li>
+          <li class="nav-item  px-3 font-weight-bold">
+            <a href="#" class="nav-link btn btn-default text-white btn-lg ">Register</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--
+  Header section
+  -->
+  <header class="bg-medicine py-5">
+    <div class="container">
+      <div class="row  ">
+        <div class="col-lg-10">
+          <h1 class="display-4 font-weight-bold mt-5 pt-4">
+            No more unnecessary Panic,<br> we got you covered.
+          </h1>
+          <h3 class="lead mt-3">Your # 1 emergency  reporting platform<br> built by humans for humans. </h3>
+          <div class="mt-4">
+            <button class="btn btn-default btn-lg mr-5" data-toggle="modal" data-target="#reportModal" type="button"> Make a quick report</i></button>
+              <!-- Report Modal -->
+              <div class="modal" id="reportModal">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button class="close text-white" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="px-4">
+                        <h4 class="text-left font-weight-bold text-dark text-md py-3">Eye Witness Reporting Form </h4>
+                        <div class="form-group">
+                          <label for="incident" class="font-weight-bold text-dark text-sm">Incident Type</label>
+                          <input type="text" placeholder="Okada Rider Accident" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="desc" class="font-weight-bold text-dark text-sm">Short Description</label>
+                          <input type="text" placeholder="Eg: A Bike Man got hitted by a reckless Driver" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="loc" class="font-weight-bold text-dark text-sm">Location</label>
+                          <input type="text" placeholder="Eg: Ake - Abeokuta South..." class="form-control">
+                        </div>
+                        <div class="form-group py-3">
+                          <input class="btn btn-primary btn-block" type="file" value="Upload the incident thumbnail">
+                        </div>
+                        <button class="btn btn-primary btn-md float-right" type="submit" data-dismiss="modal">Submit</button>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="container">
+                        <div class="row">
+                          <div class="col">
+                            <p class="text-muted text-center pt-2 ">Fill up the fields to easily get quick response to any emegency situations in your vicinity.</p><br>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col">
+                            <p class="text-muted text-center">Made with love by The 404Rescue Team</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <button class="btn btn-outline-default" type="button"></i> Download</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<!--Header End -->
+
+<!-- Feature Section-->
+  <section class="feature pb-5 text-white">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 align-self-center">
+          <img src="images/report.svg" alt="report" class="my-2 img-fluid mx-5">
+          <h3 class="text-white text-center">Quick Report</h3>
+          <p class="text-center px-5  my-4">Easily make quick report<br>any emergency situations<br>right from the website
+          </p>
+        </div>
+        <div class="col-md-4 align-self-center">
+          <img src="images/phone.svg" alt="report" class="my-2 img-fluid mx-5">
+          <h3 class="text-white text-center">Full Access on App</h3>
+          <p class="text-center px-5  my-4">Experience all added <br> features and services <br>on the Mobile App
+
+          </p>
+        </div>
+        <div class="col-md-4 align-self-center">
+          <img src="images/sms.svg" alt="report" class="my-2 img-fluid mx-5">
+          <h3 class="text-white text-center">USSD Short Code</h3>
+          <p class="text-center px-5 my-4">Short Code Services are <br>provided as an alternative for<br> users with low-end devices
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Make a report -->
+  <section class="report py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-4 align-self-content">
+          <h3 class="display-5 font-weight-bold text-center">
+            Make Quick Report
+          </h3>
+          <hr/>
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center py-3">
+        <img src="images/illustration.png" alt="report" >
+        <p class="text-right my-4">Easily report any emergency<br>situations in your vicinity.</p>
+      </div>
+      <div class="row justify-content-center pt-0">
+        <a class="btn btn-primary" href="#" role="button"  data-toggle="modal" data-target="#reportModal">Report Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Report Section End -->
+  <section class="get-app">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-xs-6">
+          <img src="images/download.svg" alt="get app" >
+        </div>
+        <div class="col-md-4 col-xs-6 pl-3">
+          <div class="row justify-content-left">
+            <h3 class="display-5 py-3 font-weight-bold">Get the App</h3>
+            <p class="display-5 text-dark font-weight-bold d-inline">404Rescue Medical Centre Desktop App</p>
+            <p class="p-0">Get the 404Rescue Mobile App for full access of all the features we provide for you.</p>
+            <a href="#"><img src="images/google-play-badge.svg" class="mr-4" alt="Google Play Download" style="width:100px; height:100px;"></a>
+            <a href="#"><img src="images/app-store-badge.svg" class="mr-4" alt=" App Store Download"style="width:100px; height:100px;"></a>
+          </div>
+          <div class="row">
+            <p class="display-5 text-dark font-weight-bold">404Rescue Medical Centre Desktop App</p>
+            <p class="p-0">Seamless and Verified Emergency incidents updates right into your organiztion door-steps. </p>
+            <a href="#"><img src="images/windows-badge.svg" class="mr-4" href="#" alt="windows Download" style="width:100px; height:100px;"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- newsletter -->
+  <section id="newsletter" class=" py-5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-2">
+          <img src="images/envelope.png" alt="envelope icon">
+        </div>
+        <div class="col-md-5">
+          <p class="text-primary text-center font-weight-bold">
+            Enter your email address to unlock our health tips
+          </p>
+          <p class="text-primary text-center font-weight-bold">
+            Sign up to start receiving updates from us
+          </p>
+        </div>
+        <div class="col-md-5 ">
+          <form action="" class="form-inline">
+            <input type="text" class="form-control form-control-lg mr-0" placeholder="Enter your email address">
+            <button class="btn btn-primary btn-lg">unlock</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Team Section -->
+
+  <section class="my-5" id="team">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col">
+          <h3 class="text-center font-weight-bold display-5">
+            Core Team
+          </h3>
+          <hr>
+          <p class="text-center">core team members at 404Rescue</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+          <div class="card">
+              <img class="img-fluid rounded-circle w-75 m-3" src="images/niyi.jpg" alt="Team">
+              <div class="card-img-overlay">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                <div class="d-flex flex-row justify-content-center pt-3">
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="text-center py-2">
+            <h6 class="text-center pr-0">Ogunsola Soliudeen Olatunji</h6>
+            <p class="text-center">UI/UX Designer</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+          <div class="card">
+              <img class="img-fluid rounded-circle w-75 m-3" src="images/niyi.jpg" alt="Team">
+              <div class="card-img-overlay">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                <div class="d-flex flex-row justify-content-center pt-3">
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="text-center py-2">
+            <h6 class="text-center pr-0">Olabode Oyinkansola Qudus</h6>
+            <p class="text-center">Android App Developer</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+          <div class="card">
+              <img class="img-fluid rounded-circle w-75 m-3" src="images/niyi.jpg" alt="Team">
+              <div class="card-img-overlay">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                <div class="d-flex flex-row justify-content-center pt-3">
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="text-center py-2">
+            <h6 class="text-center pr-0">Akinwunmi Oladele Moshood</h6>
+            <p class="text-center">Backend Developer
+
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+          <div class="card">
+              <img class="img-fluid rounded-circle w-75 m-3" src="images/niyi.jpg" alt="Team">
+              <div class="card-img-overlay">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                <div class="d-flex flex-row justify-content-center pt-3">
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="text-center py-2">
+            <h6 class="text-center pr-0">Adedamola Adeniyi</h6>
+            <p class="text-center">Frontend Developer</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 py-3">
+          <div class="card">
+              <img class="img-fluid rounded-circle w-75 m-3" src="images/niyi.jpg" alt="Team">
+              <div class="card-img-overlay">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,</p>
+                <div class="d-flex flex-row justify-content-center pt-3">
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                  </div>
+                  <div class="p-4">
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="text-center py-2">
+            <h6 class="text-center pr-0">Seun Sekoni Michael</h6>
+            <p class="text-center">Backend Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer Section -->
+<footer id="main-footer" class=" bg-white text-dark">
+  <nav class="navbar navbar-expand-sm navbar-light py-2">
+    <div class="container">
+      <p class="pt-3">
+        &copy; Copyright, 2019 404Rescue
+      </p>
+      <div class="d-flex flex-row justify-content-right pt-0">
+        <div class="pr-3">
+          <a href="#" class="text-dark font-weight-bold">Blog</a>
+        </div>
+        <div class="pr-3">
+          <a href="#" class="text-dark font-weight-bold">Download</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+   <script src="/jquery/jquery.slim.min.js"></script>
+   <script src="/jquery/popper.min.js"></script>
+   <script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
