@@ -6,7 +6,24 @@
   padding-top: 210px;
   height: 1121px;
   }
+  header .btn-default{
+    background: #2A3FFA;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    width: 190px;
+    height: 61px;
+  }
 
+  header .btn-outline-default{
+    color: #3C5AE6;
+    border: 1px solid #3C5AE6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 130px;
+    height: 61px;
+  }
   .feature img{
     padding-left: 7rem;
   }
@@ -49,6 +66,29 @@
 
 /* Medium devices (tablets) */
 @media (min-width:768px) {
+  .bg-medicine {
+    background-image: url('images/undraw_medicine.svg');
+    background-position: center;
+    background-size: cover;
+  }
+  header .btn-default{
+    background: #2A3FFA;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    width: 190px;
+    height: 61px;
+  }
+
+  header .btn-outline-default{
+    color: #3C5AE6;
+    border: 1px solid #3C5AE6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 190px;
+    height: 61px;
+  }
   .feature{
   background-image: url('images/Union.svg');
   background-position: center;
@@ -81,6 +121,29 @@
 
 /* Large devices (desktops) */
 @media (min-width:992px) {
+  .bg-medicine {
+    background-image: url('images/undraw_medicine.svg');
+    background-position: center;
+    background-size: cover;
+  }
+  header .btn-default{
+    background: #2A3FFA;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    width: 190px;
+    height: 61px;
+  }
+
+  header .btn-outline-default{
+    color: #3C5AE6;
+    border: 1px solid #3C5AE6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 190px;
+    height: 61px;
+  }
   .feature{
   background-image: url('images/Union.svg');
   background-position: center;
@@ -110,6 +173,29 @@
 
 /* Extra large devices (large desktops) */
 @media (min-width:1200px) {
+  .bg-medicine {
+    background-image: url('images/undraw_medicine.svg');
+    background-position: center;
+    background-size: cover;
+  }
+  header .btn-default{
+    background: #2A3FFA;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 15px;
+    width: 190px;
+    height: 61px;
+  }
+
+  header .btn-outline-default{
+    color: #3C5AE6;
+    border: 1px solid #3C5AE6;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    width: 190px;
+    height: 61px;
+  }
   .feature{
     background-image: url('images/Union.svg');
     background-position: center;
@@ -146,33 +232,11 @@
     width: 124px;
     border-radius: 5px;
 }
-.bg-medicine {
-  background-image: url('images/undraw_medicine.svg');
-  background-position: center;
-  background-size: cover;
-}
+
 header{
   margin-bottom: 50px;
 }
 
-header .btn-default{
-  background: #2A3FFA;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 15px;
-  width: 190px;
-  height: 61px;
-}
-
-header .btn-outline-default{
-  color: #3C5AE6;
-  border: 1px solid #3C5AE6;
-  border-radius: 5px;
-  font-weight: bold;
-  font-size: 15px;
-  width: 190px;
-  height: 61px;
-}
 header .modal-content{
   width: 496px;
   border-radius:0px;
@@ -190,7 +254,10 @@ header .btn-md{
   border-radius: 5px;
   border-color: #8F4BFF;
 }
+.fa-arrow-right{
+  width: 0px;
 
+}
 .report hr{
   background: #6665F0;
   border: 1px solid #6665F0;
@@ -251,8 +318,12 @@ header .btn-md{
   color: #ffffff;
 
 }
+.fa-heart{
+  color: red;
+}
 #team .fa{
   color: #fff;
+  font-size: 25px;
 }
 #main-footer .navbar{
   background: #FFFFFF;
